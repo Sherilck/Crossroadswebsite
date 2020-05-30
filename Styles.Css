@@ -236,7 +236,7 @@ nav .logoHeader a span
     position: relative;
     left: 15%;
     top: -4%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
     color: rgba(255,255,255,0.7);
 }
 
@@ -1084,6 +1084,7 @@ input[type="submit"]
         left: 0;
         top: 0%;
         margin: 0px;    
+        
     }
 
     .crossRoads .first{
@@ -1128,10 +1129,10 @@ input[type="submit"]
 
     .middleContent{
         
-        width: 80%;
+        width: 90%;
         height: 500px;
         position: relative;
-        left: 10%;
+        left: 5%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1179,7 +1180,7 @@ input[type="submit"]
     .mBox2 p,
     .yBox2 p,
     .eBox2 p{
-      font-size: 0.7em;
+      font-size: 0.5em;
     }
 
     .learningText{
