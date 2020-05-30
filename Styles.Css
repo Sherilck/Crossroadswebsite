@@ -1,0 +1,1426 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Martel:900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Libre+Baskerville&display=swap');
+
+html{
+    font-size: calc(1em + 1vw);
+    width: 70vw;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 70vw;
+    margin: 0;
+    color: white;
+    background: black;
+    height: 1000px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.wrapper{
+    width: 70vw;
+    height: auto;
+}
+
+
+
+nav .logoHeader{
+    margin-top: px;
+}
+
+
+
+
+
+
+
+
+nav
+{
+    background: black;
+    display: grid;
+    position: fixed;
+    margin: 0px;
+    width: 100%;
+    height: 65px;
+    z-index: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-decoration: none;
+}
+
+
+
+nav .logoHeader a
+{
+    position: absolute;
+    left: 5%;
+    font-family: 'Martel', serif;
+    font-size: 50px;
+    text-decoration:none;
+    color: white;
+    letter-spacing: 1px;
+    z-index: 12;
+    text-transform: uppercase;
+}
+
+nav .logoHeader a span
+{
+    position: absolute;
+    margin-left: 5px;
+    color: black;
+    background:	rgba(255,0,0,0.5);
+    border-top: 100px;
+    border-bottom: 10px;
+    background-size: 100rem;
+    clip-path: inset(19% 0% 30% 0%);
+    -webkit-clip-path: inset(19% 0% 30% 0%);
+   
+    
+}
+
+
+
+.nav-links{
+    display: inline-flex;
+    list-style: none;
+    width: 70%;
+    height: auto;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+    
+
+
+.nav-links li a{
+   position: relative;
+    color: rgba(255,255,255,0.9);
+    top: -20%;
+    text-decoration: none;
+    font-size: 0.5em;
+    justify-content: space-between;
+    margin-left: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 100;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+
+
+.nav-links li a::after{
+   
+    content: '';
+    position: absolute;
+    color: rgba(255,0,0,0.7);
+    top: 0px;
+    left: 0;
+    background-color:rgba(255,0,0,0.5);
+    width: 0px;
+    z-index: -1;
+    height: 100%;
+    transition: 0.8s ease-in-out;
+}
+
+.nav-links li a:hover::after{
+
+    width: 100%;
+}
+
+
+
+.crossRoads{
+    display: inline-flex;
+    width: 140%;
+    box-sizing: content-box;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    font-family: 'Martel', serif;
+    background: url(bg.jpg);
+    background-size: 100%;
+    
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;  
+    
+  
+}
+
+.crossRoads .first{
+    width: 100%;
+    position: relative;
+    top: 40%;
+    font-family: 'Martel', serif;
+    font-size: 5.50rem;
+    font-weight: 0rem;
+    text-transform: uppercase;
+    font-weight: 5rem;
+    letter-spacing: 0.2rem;
+    margin: 0px;
+    background: url(bg.jpg);
+    background-size: 40%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  
+    background-clip: text;
+
+}
+.crossRoads .second{
+    position: relative;
+    left: 0%;
+    background: url(bg.jpg);
+    background-size: 80%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;  
+    background-clip: text;
+}
+
+
+.crossRoadsa{
+    position: relative;
+    text-align: center;
+    width: 140%;
+    margin: 0;
+    left: 0;
+    height: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    text-transform: uppercase;
+    
+}
+.crossRoadsa h2{
+    position: relative;
+    font-size: 2.9rem;
+    margin: 0px;
+    height: 130px;
+    background: url(bg.jpg);
+    background-size:45%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
+.middle{
+    width: 140%;
+    height: 1000px;
+    position: relative;
+    
+}
+.middle h3{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgba(255,0,0,0.5);
+    letter-spacing: 4px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.middle h4{
+    width: 70%;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: -4%;
+    font-family: 'Pacifico', cursive;
+    color: rgba(255,255,255,0.7);
+}
+
+.middle h4 span{
+    color: rgba(255,0,0,0.5);
+
+}
+
+.middleContent{
+
+    width: 60%;
+    height: 500px;
+    position: relative;
+    left: 20%;
+    top: 0%;
+    box-shadow: 5px 3px 10px 2px rgba(104, 104, 104, 0.8);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.middleOne,
+.middleTwo,
+.middleThree,
+.middleFour{
+    
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    width: 100%;
+    height: 250px;
+}
+
+.oBox,
+.mBox,
+.yBox,
+.eBox{
+    
+    width: 50%;
+    height: 220px;
+    position: relative;
+    left: 25%;
+    top: 3vh;
+    
+}
+
+
+
+
+
+
+.middleOne .oBox img,
+.middleThree .yBox img{
+   
+    width: 100%;
+    height: 166px;
+}
+
+
+
+.middleFour .eBox img,
+.middleTwo .mBox img{
+   
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 1.5vh;
+    height: 127px;
+}
+
+
+
+.middleContent2{
+    
+    width: 60%;
+    height: 500px;
+    position: relative;
+    left: 20%;
+    top: -50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.oBox2,
+.mBox2,
+.yBox2,
+.eBox2{
+    
+    width: 55%;
+    height: 220px;
+    border: solid gray;
+    position: relative;
+    left: 25%;
+    top: 5%;
+    font-size: 1em;
+    background: black;
+    border-radius: 5p;
+    opacity: -1;
+    
+    
+}
+.oBox2 h6,
+.mBox2 h6,
+.yBox2 h6,
+.eBox2 h6{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 0;
+    color: rgba(255,0,0,0.4);;
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    
+
+}
+.oBox2 p,
+.mBox2 p,
+.yBox2 p,
+.eBox2 p{
+    margin: 0;
+    width: 95%;
+    margin-top: 5px;
+    color: rgba(255,255,255,0.7);
+    position: relative;
+    left: 4%;
+    font-size: 0.6em;
+    text-indent: 20%;
+}
+
+.oBox2:hover,
+.mBox2:hover,
+.yBox2:hover,
+.eBox2:hover{
+    opacity: 1;
+    transition: ease-in-out 1s;
+}
+
+.oText{
+    width: 50%;
+    height: 5vh;
+    position: relative;
+    left: 25%;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.oText p{
+    position: relative;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.7);
+    font-weight: bolder;
+}
+
+
+
+
+
+.learningText{
+    width: 140%;
+    height: 50px;
+    position: relative;
+    align-content: center;
+}
+
+.learningText p{
+    margin: 0;
+    position: relative;
+    top: 0;
+    color: rgba(255,255,255,0.7);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   
+}
+
+.challengeBox{
+    width: 140%;
+    height: 400px;
+    position: relative;
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1,
+.box2,
+.box3{
+   
+    border: solid 3px rgba(255,0,0,0.5);
+    position: relative;
+    border-radius: 10px;
+}
+
+
+.box1{
+    left: 20%;
+}
+.box3{
+    right: 20%;
+}
+
+.box1 iframe,
+.box2 iframe,
+.box3 iframe{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    
+}
+
+
+
+.box1 p,
+.box2 p,
+.box3 p{
+    position: relative;
+    top: 0px;
+    margin: 0;
+    border: solid 5px rgba(255,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    border-bottom: none;
+    border-left: none;
+    font-family: 'Bebas Neue', cursive;
+    border-right: none;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.olearningText{
+    width: 140%;
+    height: 50px;
+    margin-top: 50px;
+    position: relative;
+    color: rgba(255,255,255,0.7);
+    align-content: center;
+}
+
+.olearningText p{
+    position: relative;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.ochallengeBox{
+    width: 140%;
+    height: 250px;
+    position: relative;
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.obox1,
+.obox2,
+.obox3,
+.obox4,
+.obox5{
+    width: 100%;
+    position: relative;
+    
+}
+
+.obox1 iframe,
+.obox2 iframe,
+.obox3 iframe,
+.obox4 iframe,
+.obox5 iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.ventureText{
+    width: 140%;
+    height: 70px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.ventureText h4{
+    margin: 0;
+    position: relative;
+    top: 40%;
+    color: rgba(255,255,255,0.8);
+    text-decoration: underline;
+}
+
+.ventures{
+    position: relative;
+    width: 140%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+
+.sps,
+.packapper{
+    width: 40%;
+    height: auto;
+    border: solid rgba(255,0,0,0.5);;
+    position: absolute;
+    left: 8%;
+    
+    
+}
+.packapper{
+    left: 53%;
+   
+}
+
+.vHead{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.vHead h6{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    font-size: 1.8em;
+    color: white
+}
+
+.vText{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: auto;
+}
+
+.vText p{
+   
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 30px;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.vFoot{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    align-content: center;
+    text-align: center;
+
+}
+
+.vFoot a{
+    max-width: 0;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255,0,0,0.5);
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.teamText{
+    width: 140%;
+    height: 100px;
+    margin: 0;
+    align-content: center;
+    color: rgba(255,0,0,0.5);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.teamText h5{
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+}
+
+
+.team{
+    
+    width: 140%;
+    height: 550px;   
+    position: relative;
+}
+
+.fullTeam{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    left: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.name6{
+    width: 100%;
+    height: auto;
+    border: solid 5px rgba(255,0,0,0.5);
+    position: relative;
+}
+
+.name6:nth-child(1),
+.name6:nth-child(5),
+.name6:nth-child(9){
+    border-left: none;
+}
+
+.name6:nth-child(2),
+.name6:nth-child(3),
+.name6:nth-child(4),
+.name6:nth-child(1){
+    border-top: none;
+}
+.name6:nth-child(4),
+.name6:nth-child(8),
+.name6:nth-child(12){
+    border-right: none;
+
+}
+
+.name6:nth-child(9),
+.name6:nth-child(10),
+.name6:nth-child(11),
+.name6:nth-child(12){
+    border-bottom: none;
+}
+
+.nFront1{
+    background-image: url(Nikhil_front.png);
+}
+.nFront2{
+    background-image: url(faizal_front.jpg);
+}
+.nFront3{
+    background-image: url(sibii_Front.jpg);
+}
+.nFront4{
+    background-image: url(Arunima_front.jpg);
+}
+.nFront5{
+    background-image: url(Dilshad_Front.jpg);
+}
+.nFront6{
+    background-image: url(Sonu_front.png);
+}
+.nFront7{
+    background-image: url(Shimnaa.front.jpg);
+}
+.nFront8{
+    background-image: url(Ajmal_Front.jpg);
+}
+.nFront9{
+    background-image: url(Shabeerali_front.jpg);
+}
+.nFront10{
+    background-image: url(kavyaa_front.png);
+}
+.nFront11{
+    background-image: url(Abinand_front.jpg);
+}
+.nFront12{
+    background-image: url(Nikhilfront.png);
+}
+
+.name6 .nFront1,
+.name6 .nFront2,
+.name6 .nFront3,
+.name6 .nFront4,
+.name6 .nFront5,
+.name6 .nFront6,
+.name6 .nFront7,
+.name6 .nFront8,
+.name6 .nFront9,
+.name6 .nFront10,
+.name6 .nFront11,
+.name6 .nFront12{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background-size: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    transition: all 0s ease-in-out ;
+    opacity: 5;
+    transform: scaleY(1);
+}
+
+
+.nFront1 p,
+.nFront2 p,
+.nFront3 p,
+.nFront4 p,
+.nFront5 p,
+.nFront6 p,
+.nFront7 p,
+.nFront8 p,
+.nFront9 p,
+.nFront10 p,
+.nFront11 p,
+.nFront12 p{
+    color: white;
+    font-size: 0.5rem;
+    text-align:center;
+    position: relative;
+    top: 60%;
+    margin: 0;
+}
+
+.nFront1 h6,
+.nFront2 h6,
+.nFront3 h6,
+.nFront4 h6,
+.nFront5 h6,
+.nFront6 h6,
+.nFront7 h6,
+.nFront8 h6,
+.nFront9 h6,
+.nFront10 h6,
+.nFront11 h6,
+.nFront12 h6{
+    
+    font-size: 0.4rem;
+    text-align:center;
+    position: relative;
+    top: 60%;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nBack
+{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in ;
+    box-sizing: border-box;
+    width: 100%; 
+    height: 100%;
+    line-height: 22px;
+    transform: scalex(0);
+    opacity: -1;
+
+}
+
+
+.name6:hover .nBack
+{
+    opacity: 1;
+    transform: scaleX(1);
+    transition: ease-out 1s;
+}
+
+.name6:hover .nFront1,
+.name6:hover .nFront2,
+.name6:hover .nFront3,
+.name6:hover .nFront4,
+.name6:hover .nFront5,
+.name6:hover .nFront6,
+.name6:hover .nFront7,
+.name6:hover .nFront8,
+.name6:hover .nFront9,
+.name6:hover .nFront10,
+.name6:hover .nFront11,
+.name6:hover .nFront12{
+    opacity: 1;
+    transform: scaleX(0) ;
+    transition: ease-out 1s;
+}
+
+
+
+
+.contact{
+    width: 80%;
+    padding: 20px;
+    position: relative;
+    left: 30%;
+}
+
+.contact h2{
+    width: 100%;
+    color:rgba(255,255,255,0.7);
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: rgba(255,0,0,0.5);
+    text-align: center;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.contact .details{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
+.contact .details .col{
+    position: relative;
+    width: 90%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+.contact .details .inputBox{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: rgba(255,0,0,0.5);
+}
+
+.contact .details .inputBox input,
+.contact .details .inputBox.textarea textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+
+}
+
+.contact .details .inputBox .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.contact .details .inputBox input:focus + .text,
+.contact .details .inputBox input:valid + .text{
+
+    top: -35px;
+    left: -10px;
+}
+
+.contact .details .inputBox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgba(255,0,0,0.5);
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+
+}
+
+.contact .details .inputBox input:focus ~ .line,
+.contact .details .inputBox input:valid ~ .line{
+
+    height: 100%;
+
+}
+
+.contact .details .inputBox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.contact .details .inputBox.textarea textarea
+{
+    height: 100%;
+    resize: none;
+}
+
+.contact .details .inputBox textarea:focus + .text,
+.contact .details .inputBox textarea:valid + .text{
+
+    top: -35px;
+    left: -10px;
+}
+
+.contact .details .inputBox textarea:focus ~ .line,
+.contact .details .inputBox textarea:valid ~ .line{
+
+    height: 100%;
+
+}
+
+input[type="submit"]
+{
+    width: 100%;
+    height: 55px;
+    border: none;
+    padding: 7px 35px;
+    cursor: pointer;
+    outline: none;
+    background: rgba(255,0,0,0.5);;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+footer{
+    width: 140%;
+    height: 50px;
+    border: solid rgba(255,255,255,0.1);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sMedia,
+.cText{
+    
+    display: inline;
+    
+    position: relative;
+    
+    top: 20%;
+}
+
+.sMedia{
+    text-align: end;
+    margin-right: 20%;
+    
+}
+
+.sMedia a{
+    text-decoration: none;
+}
+
+.sMedia img{
+    width: 1rem;
+    margin-left: 20px;
+    
+    align-items: flex-end;
+    
+}
+
+.cText p{
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 0;
+    color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 890px) {
+
+    body{
+        margin: 0;
+    }
+    nav{
+        position: fixed;
+        margin-top: 0px;
+        z-index: 120;
+        margin: 0px; 
+    }
+
+    .logoHeader a{
+        position: fixed;
+        left: 0%;
+    }
+   
+    .line{
+        width: 30px;
+        height: 4px;
+        background: red;
+        margin: 5px;
+    }
+    
+  
+
+    .hamburger{
+        position: absolute;
+        align-items: flex-end;
+        cursor: pointer;
+        right: 0%;
+        left: 120%;
+        top: 60%;
+        transform: translate(-30%, -50%);
+        z-index: 2000;
+        width: 100%;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: rgba(0,0,0,0.9);
+        height: 100vh;
+        width: 100%;
+        padding-top: 40px;
+        margin: 0;
+        flex-direction: column;
+        clip-path: circle(100px at 88% -20%);
+        -webkit-clip-path: circle(100px at 88% -20%);
+        pointer-events: none;
+        z-index: 0;
+        transition: all 2s ease-out;
+    }   
+
+    .nav-links.open{
+        
+        margin-top: 100%;
+        clip-path: circle(1200px at 90% -10%);
+        -webkit-clip-path: circle(1200px at 90% -10%);
+        pointer-events: all;
+        z-index: 1000;
+        margin: 0;
+    }
+   
+    
+
+    .nav-links li{
+        opacity: 0;
+        margin-top: 40px;
+    }
+    .nav-links li a{
+        font-size: 2rem;
+        
+        color: rgba(255,255,255,0.5);
+        font-weight: bolder;
+        
+        
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease .4s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.6s ease 0.8s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.10s ease 0.8s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.11s ease 0.8s;
+    }
+    li.fade {
+        opacity: 1;
+    }
+    
+    .crossRoads{
+        width: 140%;
+        height: 400px;
+        position: relative;
+        left: 0;
+        top: 0%;
+        margin: 0px;    
+    }
+
+    .crossRoads .first{
+        width: 100%;
+        height: 180px;
+        position: relative;
+        top: 25%;
+        left: 0%;
+        text-align: center;
+        margin: 0px;
+        background: url(bg.jpg);
+        background-size: 70%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;  
+        background-clip: text;
+       
+    }
+
+    .crossRoads .second{
+        display: grid;
+        width: 100%;
+        height: 180px;
+        position: relative;
+        left: 0px;
+        margin: 0;
+        top: -55%;
+        margin: 0;
+        padding: 0;
+        background: url(bg.jpg);
+        background-size: 70%;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;  
+        background-clip: text;
+    }
+
+    .crossRoadsa h2{
+        font-size: 1.7em;
+        background-size: 30%;
+        top: -0.4em;
+    }
+    
+
+    .middleContent{
+        
+        width: 80%;
+        height: 500px;
+        position: relative;
+        left: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+   
+    .oBox,
+    .mBox,
+    .yBox,
+    .eBox{
+        width: 60%;
+        height: 60%;
+        left: 20%;
+    }
+
+    .oBox{
+        position: relative;
+        top: 15%;
+    }
+  
+
+    .middleContent2{
+        
+        width: 70%;
+        left: 18%;
+        height: auto;
+    }
+    .oBox2,
+    .mBox2,
+    .yBox2,
+    .eBox2{
+        
+        width: 90%;
+        height: 200px;
+        left: 0%;
+    }
+
+    .oBox2 h6,
+    .mBox2 h6,
+    .yBox2 h6,
+    .eBox2 h6{
+        font-size: 0.8em;
+    }
+
+
+    .oBox2 p,
+    .mBox2 p,
+    .yBox2 p,
+    .eBox2 p{
+      font-size: 0.7em;
+    }
+
+    .learningText{
+        margin-top: 15px;
+    }
+
+    .challengeBox{
+        width: 140%;
+        height: 1100px;
+        border: solid gray;
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        left: 0;
+        border: none;
+    }
+
+
+    .box1,
+    .box2,
+    .box3{
+        width: 80%;
+        height: 350px;
+        left: 10%;
+        border: none;
+        
+    }
+    .box2{
+        top: -35%;
+    }
+    .box3{
+        top: -60%;
+    }
+
+    .box1 p,
+    .box2 p,
+    .box3 p{
+        font-size: 1rem;
+    }
+    
+    .olearningText{
+        margin-top: 0px;
+
+    }
+    .ochallengeBox{
+        width: 130%;
+        left: 5%;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .obox5{
+        display: none;
+    }
+    
+    .ventures{
+        width: 140%;
+        height: 900px;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .sps{
+        width: 90%;
+        left: 5%;
+        margin: 0;
+       
+    }
+    .packapper{
+        position: relative;
+        top: 47%;
+        width: 90%;
+        left: 5%;
+        margin: 0;
+    }
+
+    .team{
+        width: 140%;
+        height: auto;
+        
+    }
+
+    .fullTeam{
+        width: 90%;
+        height: 380px;
+        left: 5%;
+    }
+    .nFront1 p,
+    .nFront2 p,
+    .nFront3 p,
+    .nFront4 p,
+    .nFront5 p,
+    .nFront6 p,
+    .nFront7 p,
+    .nFront8 p,
+    .nFront9 p,
+    .nFront10 p,
+    .nFront11 p,
+    .nFront12 p{
+        color: white;
+        font-size: 0.5rem;
+  
+    }
+
+    .nFront1 h6,
+    .nFront2 h6,
+    .nFront3 h6,
+    .nFront4 h6,
+    .nFront5 h6,
+    .nFront6 h6,
+    .nFront7 h6,
+    .nFront8 h6,
+    .nFront9 h6,
+    .nFront10 h6,
+    .nFront11 h6,
+    .nFront12 h6{
+    
+        font-size: 0.45rem;
+
+    }
+
+   
+}
+
+
+@media screen and (min-width: 891px) and (max-width:1049px){
+    .crossRoads{
+        width: 140%;
+        padding: 0;
+        display: inline-flex;
+        text-align: center;
+        letter-spacing: 0px;
+
+    }
+    .crossRoads .first{
+        font-size: 4.8rem;
+        letter-spacing:0px;
+    }
+
+    .crossRoadsa h2{
+        top: -40%;
+        font-size: 2.5em;
+    }
+
+    .ventures{
+        width: 140%;
+        height: 700px;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .fullTeam{
+        width: 60%;
+        height: 380px;
+        left: 20%;
+    }
+
+}
+
+
+@media screen and (min-width: 1050px) and (max-width:1200px){
+   
+    .crossRoads{
+        width: 140%;
+        padding: 0;
+        display: inline-flex;
+        text-align: center;
+        letter-spacing: 0px;
+    }
+
+    .crossRoads .first{
+        font-size: 5rem;
+        
+    }
+
+    .crossRoadsa h2{
+        top: -40%;
+        
+    }
+
+    .ventures{
+        width: 140%;
+        height: 700px;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .fullTeam{
+        width: 60%;
+        height: 380px;
+        left: 20%;
+    }
+     
+     
+}
+
+
