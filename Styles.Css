@@ -226,7 +226,7 @@ nav .logoHeader a span
     text-align: center;
     color: rgba(255,0,0,0.5);
     letter-spacing: 4px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -962,52 +962,6 @@ input[type="submit"]
     border-radius: 2px;
 }
 
-footer{
-    width: 140%;
-    height: 50px;
-    border: solid rgba(255,255,255,0.1);
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.sMedia,
-.cText{
-    
-    display: inline;
-    
-    position: relative;
-    
-    top: 20%;
-}
-
-.sMedia{
-    text-align: end;
-    margin-right: 20%;
-    
-}
-
-.sMedia a{
-    text-decoration: none;
-}
-
-.sMedia img{
-    width: 1rem;
-    margin-left: 20px;
-    
-    align-items: flex-end;
-    
-}
-
-.cText p{
-    font-size: 0.6rem;
-    text-align: center;
-    margin: 0;
-    color: rgba(255,255,255,0.7);
-}
-
 
 
 
@@ -1038,9 +992,10 @@ footer{
         margin: 0px; 
     }
 
-    .logoHeader a{
-        position: fixed;
-        left: 0%;
+    nav .logoHeader a{
+        position: relative;
+        left: 1%;
+        font-size: 50px;
     }
    
     .line{
@@ -1129,10 +1084,11 @@ footer{
         left: 0;
         top: 0%;
         margin: 0px;    
+        border: solid green;
     }
 
     .crossRoads .first{
-        width: 100%;
+        width: 140%;
         height: 180px;
         position: relative;
         top: 25%;
@@ -1293,6 +1249,7 @@ footer{
         width: 90%;
         left: 5%;
         margin: 0;
+        height: auto;
        
     }
     .packapper{
@@ -1301,6 +1258,7 @@ footer{
         width: 90%;
         left: 5%;
         margin: 0;
+        height: auto;
     }
 
     .team{
