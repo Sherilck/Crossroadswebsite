@@ -293,7 +293,9 @@ nav .logoHeader a span
 
 
 .middleOne .oBox img,
-.middleThree .yBox img{
+.middleThree .yBox img,
+.middleFour .eBox img,
+.middleTwo .mBox img{
    
     width: 100%;
     height: 166px;
@@ -302,16 +304,7 @@ nav .logoHeader a span
 
 
 
-.middleFour .eBox img,
-.middleTwo .mBox img{
-   
-    width: 90%;
-    position: relative;
-    left: 5%;
-    top: 1.5vh;
-    height: 127px;
-    border-radius: 500px;
-}
+
 
 
 
@@ -1203,7 +1196,7 @@ input[type="submit"]
     }
 
     .learningText{
-        margin-top: 15px;
+        margin: 0;
     }
 
     .challengeBox{
