@@ -236,7 +236,7 @@ nav .logoHeader a span
     position: relative;
     left: 15%;
     top: -4%;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: rgba(255,255,255,0.7);
 }
 
@@ -1084,7 +1084,6 @@ input[type="submit"]
         left: 0;
         top: 0%;
         margin: 0px;    
-        border: solid green;
     }
 
     .crossRoads .first{
