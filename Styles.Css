@@ -1163,11 +1163,13 @@ input[type="submit"]
 
     .middleContent2{
         position: relative;
-        top: -70%;
+        top: -58%;
         width: 60%;
         height: 1050px;
         left: 20%;
         grid-template-columns: 1fr;
+       
+        
         
     }
     .oBox2,
@@ -1178,6 +1180,7 @@ input[type="submit"]
         width: 90%;
         height: 200px;
         left: 5%;
+       
     }
 
     .oBox2 h6,
